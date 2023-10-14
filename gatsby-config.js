@@ -17,11 +17,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-netlify',
-    {
-      resolve: 'gatsby-theme-netlify-cms',
-      options: {
-        // ...additional options
-      },
-    },
+    'gatsby-plugin-netlify-cms',  // Corrected plugin name here
+    // Removed the incorrect plugin block
   ],
 };
