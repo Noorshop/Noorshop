@@ -17,7 +17,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-netlify',
-    'gatsby-plugin-netlify-cms',  // Corrected plugin name here
-    // Removed the incorrect plugin block
+    'gatsby-plugin-netlify-cms',
   ],
 };
