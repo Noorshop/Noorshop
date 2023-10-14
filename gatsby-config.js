@@ -17,5 +17,11 @@ module.exports = {
       },
     },
     'gatsby-plugin-netlify',
+    {
+      resolve: 'gatsby-theme-netlify-cms',
+      options: {
+        // ...additional options
+      },
+    },
   ],
 };
